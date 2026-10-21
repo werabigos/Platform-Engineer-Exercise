@@ -1,0 +1,14 @@
+{
+  "name": "platform",
+  "version": "1.0.0",
+  "description": "Task Using the API at SWAPI.dev print a formatted list of Star Wards characters and at at least five pieces of information about each of them. Selecting a character should also provide a list of information about vehicles they are associated with.",
+  "license": "ISC",
+  "author": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "devDependencies": {
+    "electron": "^44.9.2"
+  }
+}

@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self'; script-src 'self'; connect-src https://swapi.dev"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Star Archives</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <h1>Star Archives</h1>
+
+    <form id="searchForm">
+      <input id="nameInput" placeholder="e.g. Luke Skywalker" autofocus />
+      <button>Search</button>
+    </form>
+
+    <p id="searchStatus"></p>
+    <h2 id="characterName"></h2>
+    <ul id="result"></ul>
+    <p id="vehicleList"></p>
+
+    <h2>All characters</h2>
+    <p id="loadStatus">Loading characters...</p>
+    <ul id="nameList"></ul> 
+
+    <script type="module" src="renderer.js"></script>
+  </body>
+</html>

@@ -1,0 +1,122 @@
+
+@font-face {
+  font-family: "StarFont";
+  src: url("fonts/Starjedi.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Aurebesh";
+  src: url("fonts/Aurebesh.otf") format("opentype");
+}
+
+body {
+  margin: 0 auto;
+  max-width: 520px;
+  min-height: 100vh;
+  padding: 24px;
+  color: #e8e8f0;
+  font-family: system-ui, sans-serif;
+  background: #02030a;
+}
+
+body::before,
+body::after {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  background-repeat: repeat;
+}
+
+body::before {
+  background-size: 250px 250px;
+  background-image:
+    radial-gradient(1px 1px at 20px 30px, #fff, transparent),
+    radial-gradient(2px 2px at 90px 120px, #fff, transparent),
+    radial-gradient(1px 1px at 160px 60px, #ddd, transparent),
+    radial-gradient(1px 1px at 210px 200px, #fff, transparent),
+    radial-gradient(1px 1px at 35px 190px, #fff, transparent),
+    radial-gradient(1px 1px at 55px 75px, #ddd, transparent),
+    radial-gradient(2px 2px at 120px 20px, #fff, transparent),
+    radial-gradient(1px 1px at 140px 160px, #fff, transparent),
+    radial-gradient(1px 1px at 185px 110px, #cfe3ff, transparent),
+    radial-gradient(2px 2px at 230px 70px, #fff, transparent),
+    radial-gradient(1px 1px at 75px 230px, #ddd, transparent),
+    radial-gradient(1px 1px at 10px 140px, #fff, transparent);
+}
+
+body::after {
+  background-size: 400px 400px;
+  background-image:
+    radial-gradient(2px 2px at 60px 90px, #cfe3ff, transparent),
+    radial-gradient(1px 1px at 250px 40px, #fff, transparent),
+    radial-gradient(2px 2px at 330px 300px, #ffe9c4, transparent),
+    radial-gradient(1px 1px at 30px 220px, #fff, transparent),
+    radial-gradient(2px 2px at 110px 350px, #fff, transparent),
+    radial-gradient(1px 1px at 150px 160px, #ffe9c4, transparent),
+    radial-gradient(1px 1px at 190px 30px, #fff, transparent),
+    radial-gradient(2px 2px at 215px 260px, #cfe3ff, transparent),
+    radial-gradient(1px 1px at 290px 120px, #fff, transparent),
+    radial-gradient(1px 1px at 360px 200px, #fff, transparent),
+    radial-gradient(1px 1px at 380px 370px, #ddd, transparent);
+}
+
+h1, h2 {
+  font-family: "StarFont", sans-serif;
+  color: #000;                       
+  -webkit-text-stroke: 0.6px #ffe81f;   
+  letter-spacing: 0.08em;
+  text-align: center;
+}
+
+input, button {
+  padding: 8px 12px;
+  font-size: 1rem;
+  color: #ffe81f;
+  background: rgba(0, 0, 0, 0.6);
+  border: 1px solid #ffe81f;
+  border-radius: 6px;
+}
+
+button {
+  cursor: pointer;
+}
+
+button:hover {
+  background: #ffe81f;
+  color: #000;
+}
+
+#searchForm {
+  display: flex;
+  gap: 8px;
+  max-width: 440px;
+  margin: 0 auto;
+}
+
+#searchForm input {
+  flex: 1;
+  min-width: 0;
+}
+
+#loadStatus,
+#searchStatus {
+  text-align: center;
+  color: #9fb4ff;
+}
+
+#nameList h3 {
+  cursor: pointer;
+}
+
+#nameList h3:hover {
+  color: #ffe81f;
+}
+
+#characterName {
+  color: #ffe81f;
+  -webkit-text-stroke: 0;
+  font-family: "Aurebesh", sans-serif;
+}
+
+
