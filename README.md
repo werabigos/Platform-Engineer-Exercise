@@ -45,7 +45,7 @@ Weronika Bigos
 ## Version
 
 * 1.0.0
- * Initial release
+    * Initial release
 
 ## Acknowledgments
 * Data: [swapi.dev](https://swapi.dev)
