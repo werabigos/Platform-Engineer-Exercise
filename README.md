@@ -47,7 +47,7 @@ Weronika Bigos
 * 1.0.0
     * Initial release
  
-## Possible Roadmap
+## Future ideas
 
 Additions in likely order of implementation. 
 
