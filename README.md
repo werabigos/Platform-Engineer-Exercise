@@ -46,6 +46,34 @@ Weronika Bigos
 
 * 1.0.0
     * Initial release
+ 
+## Possible Roadmap
+
+Additions in likely order of implementation. 
+
+### 1: Expanding the logic and data
+
+* Add the ability to view information on planets and vehicles
+* Display more data about the characters like films that they characters appear in
+* Cache the data so the app starts faster and works offline
+* Partial name search with suggestions, and ability to sort and filter by related information
+
+### 2. Character cards
+
+* Replace the character at the top with a character ID card that shows facts 
+* Add images for characters, vehicles, planets
+
+### 3. Bookmarks
+
+* Allow users to use the app as a easy reference library, with the ability to bookmark characters and information to use as reference while watching a movie or show
+* Provide bookmark filter
+
+### 4. Visual Enhancements
+
+* Add animated falling stars as a layer separate from the static star background
+* Add slow-moving background images, such as ships flying by
+* Maintain text readability over animated backgrounds
+
 
 ## Acknowledgments
 * Data: [swapi.dev](https://swapi.dev)
