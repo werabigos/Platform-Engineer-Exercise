@@ -47,7 +47,6 @@ Weronika Bigos
 
 ## Acknowledgments
 * Data: [swapi.dev](https://swapi.dev)
-* Fonts: StarJedi (Boba Fonts), Aurebesh (Pixel Sagas), from dafont.com
 * [Electron](https://www.electronjs.org)
 * [Star Jedi](https://www.dafont.com/star-jedi.font) font by Boba Fonts, from dafont.com
 * [Aurebesh](https://www.dafont.com/aurebesh.font) font by Pixel Sagas, from dafont.com
