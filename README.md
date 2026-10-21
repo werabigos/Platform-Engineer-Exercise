@@ -74,6 +74,10 @@ Additions in likely order of implementation.
 * Add slow-moving background images, such as ships flying by
 * Maintain text readability over animated backgrounds
 
+## Closing Thoughts
+
+I would like to join the Platform Engineering team to keep developing my programming knowledge and apply it in practice. My favorite part of this exercise was combining all the parts to see the final result. I'd like to explore that same process on a larger scale and learn how the systems and tools that people use every day are built and maintained. As a student, I'm excited for the opportunity to gain hands-on experience, learn from more experienced engineers, and contribute to the best of my ability.
+
 
 ## Acknowledgments
 * Data: [swapi.dev](https://swapi.dev)
