@@ -8,6 +8,8 @@ Star Archives loads every character and their vehicles from SWAPI when the app i
 
 ## Getting Started
 
+### Dependencies
+
 * [Node.js](https://nodejs.org)
 * Internet connection to access the data from SWAPI
 
